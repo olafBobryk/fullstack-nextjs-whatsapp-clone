@@ -2,6 +2,16 @@
 
 # Fullstack WhatsApp clone using Next.js, Vercel and Supabase
 
+> **Averlo Stage adaptation.** The public `averlo-stage-v1` branch is an
+> unaffiliated educational WhatsApp Web example adapted from this repository at
+> commit `16e506a4660ccc17ca938adf290cde6f81749416`. It preserves the upstream
+> Apache-2.0 license and history while replacing Supabase and Stream runtime
+> calls with deterministic local fixture data. It requires no credentials,
+> remote assets, external APIs, or environment files.
+
+Run the adapted branch with `npm ci --ignore-scripts && npm run dev`. The Stage
+source is `components/WhatsAppChat.jsx` and the preview route is `/`.
+
 This project contains all the code to run the FullStack WhatsApp clone using Next.js and Supebase. The codebase was developed for an article series published on Stream's blog:
 
 - [Intro: Building a WhatsApp Clone with NextJS & Supabase](https://getstream.io/blog/whatsapp-nextjs/)

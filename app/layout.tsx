@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Whatsapp Clone',
-  description: 'Created and powered by Stream',
+  title: 'WhatsApp Web',
+  description: 'An unaffiliated open-source Stage example adapted from Stream.',
 };
 
 export default function RootLayout({
@@ -13,9 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="min-h-screen flex flex-col items-center">
-          {children}
-        </main>
+        <main>{children}</main>
       </body>
     </html>
   );
